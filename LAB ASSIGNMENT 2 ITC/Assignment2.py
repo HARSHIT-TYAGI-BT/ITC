@@ -52,15 +52,9 @@ print()
 
 
 print('Question-5')
-Side1 = float(input('Enter First side: '))
-Side2 = float(input('Enter Second side: '))
-Side3 = float(input('Enter Third side: '))
-
-# Converting to integers as said in the Question
-print('Convering Sides to Integer Values as said in the Question\n')
-Side1 = int(Side1)
-Side2 = int(Side2)
-Side3 = int(Side3)
+Side1 = int(input('Enter First side: '))
+Side2 = int(input('Enter Second side: '))
+Side3 = int(input('Enter Third side: '))
 
 # Using Logical Operators as a Conditional Statement:
 test = (Side1+Side2>Side3) and (Side2+Side3>Side1) and (Side1+Side3>Side2)
