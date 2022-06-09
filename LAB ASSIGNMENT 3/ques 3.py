@@ -1,5 +1,3 @@
-Python 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
 #question 3
 import math
 
@@ -22,13 +20,7 @@ exp5 = (y2 - y1)/(x2 - x1)
 
 #PRINTING THE OUTPUT EXPRESSIONS :
 print(exp1)
-35
 print(exp2)
-45.0
 print(exp3)
-1256.6370614359173
 print(exp4)
-3.1622776601683795
 print(exp5)
-
-0.5
