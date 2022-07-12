@@ -149,18 +149,22 @@ for i in range(0, n):
 print(findTriplets(lst,n))
 
 #Question 9
-#Parantheses 
+class answer:
+    def parentheses(self,line):
+        if len(line)%2==1:
+            print('Invalid')
+        else:
+            for i in range(0, len(line), 2):
+                if line[i:i+2] not in ['()', '[]', '{}']:
+                    print('Invalid')
+                    break
+            else:
+                print('Valid')
 
-class parantheses:
-    def find(str):
-        a= ['()', '{}', '[]'] 
-        while any(i in str for i in a):
-            for j in a:
-                str = str.replace(j, '') 
-        return not str 
+string= str(input('Enter parentheses string: '))
+for i in string:
+    if i not in '(){}[]':
+        string= str(input('Enter ONLY parentheses string: '))
+        
+answer().parentheses(string)
 
-s = input("Enter the sequence of parantheses : ")
-if parantheses.find(s):
-    print(s,"-","is balanced")
-else:
-    print(s,"-","is unbalanced")
